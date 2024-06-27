@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.gRPCDemo.Server", "src\ITI.gRPCDemo.Server\ITI.gRPCDemo.Server.csproj", "{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90DEB853-22F0-4419-A9C1-45844EDDD3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.gRPCDemo.Device", "src\ITI.gRPCDemo.Device\ITI.gRPCDemo.Device.csproj", "{C2E8C862-F60D-4C9A-B825-261000B2CC70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E8C862-F60D-4C9A-B825-261000B2CC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E8C862-F60D-4C9A-B825-261000B2CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E8C862-F60D-4C9A-B825-261000B2CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E8C862-F60D-4C9A-B825-261000B2CC70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E66A3B2E-49A5-46DB-A3FA-91CBCE400DE3} = {90DEB853-22F0-4419-A9C1-45844EDDD3CB}
+		{C2E8C862-F60D-4C9A-B825-261000B2CC70} = {90DEB853-22F0-4419-A9C1-45844EDDD3CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1426B46-6D6B-4CA7-B26D-299145A5BA02}
+	EndGlobalSection
+EndGlobal

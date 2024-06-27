@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ITI.gRPCDemo.Device-43158a0e-aff5-44be-b185-22bc46dfa4df</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.21.5" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.49.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.49.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\ITI.gRPCDemo.Server\Protos\models.proto" GrpcServices="Client">
+      <Link>Protos\models.proto</Link>
+    </Protobuf>
+    <Protobuf Include="..\ITI.gRPCDemo.Server\Protos\telemetryService.proto" GrpcServices="Client">
+      <Link>Protos\telemetryService.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+</Project>
